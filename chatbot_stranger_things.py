@@ -22,8 +22,8 @@ import streamlit as st
 import openai
 import os
 
-openai.api_key = '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'
-os.environ['OPENAI_API_KEY'] = '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'
+openai.api_key = 'YOUR_KEY_HERE'
+os.environ['OPENAI_API_KEY'] = 'YOUR_KEY_HERE'
 
 st.set_page_config(page_title="Stranger Things Chatbot", layout="centered", initial_sidebar_state="auto", menu_items=None)
 

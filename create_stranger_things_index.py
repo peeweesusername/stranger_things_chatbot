@@ -4,7 +4,7 @@ import streamlit as st
 import openai
 import os
 
-os.environ["OPENAI_API_KEY"] = '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'
+os.environ["OPENAI_API_KEY"] = 'YOUR_KEY_HERE'
 
 WikipediaReader = download_loader('WikipediaReader')
 
